@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #242121 ;
+    color: white;
+    padding: 15px;
+}
+
+.navbar{
+   border:1px solid red;
+   padding: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.left-navbar{
+    border:1px solid red;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    gap:5px;
+}
+
+.left-navbar img{
+    width: 60px;
+}
+
+.middle-navbar{
+    width: 40%;
+    padding: 5px;
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.searchbar{
+   display: flex;
+   gap:20px;
+   width: 80%;
+   background-color: #373737;
+   
+}
+
+.searchbar h1{
+    color: #777777;
+}
+
+.searchbar input{ 
+    width: 80%;
+    color: #777777;
+    background-color: #373737;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.middle-navbar button{
+    padding: 10px;
+    border: 1px solid #777777;
+    color: #777777; 
+    background-color:  #373737 ;
+    width: 15%;
+    cursor: pointer;
+}
+
+.middle-navbar button:hover{
+   box-shadow: 0px 0px 5px silver;
+}
+
+.right-navbar{
+    border: 1px solid red;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #242121;
+}
+
+.right-navbar h1{
+    background-color: red;
+}
+
+
+
+
