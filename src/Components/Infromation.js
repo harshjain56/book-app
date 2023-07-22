@@ -4,7 +4,7 @@ const Infromation = ()=>{
    
    return(
     <div>
-        hii
+        bye
     </div>
    )
 
